@@ -17,9 +17,15 @@ public:
 					number /= 2;
 				}
 			}
+			else if(number == 6)
+			{
+				result.push_back(2);
+				result.push_back(3);
+			}
 			else
-
-			result.push_back(number);
+			{
+				result.push_back(number);
+			}
 		}
 		return result;
 	}
